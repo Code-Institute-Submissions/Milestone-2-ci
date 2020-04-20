@@ -1,3 +1,4 @@
+![readme-logo](https://user-images.githubusercontent.com/55837085/79745415-2576c200-8300-11ea-88f4-068e556fdbea.jpg)
 # Where Next?
 
 Where Next is a holiday planner which had been designed to make your job easy and to help you decide where you want to visit next,
