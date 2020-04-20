@@ -13,7 +13,6 @@
     width: 100%;
     height: 60px;
     text-align: center;
-    font-size: 40px;
 }
 
 .main-link {
@@ -27,4 +26,106 @@
      cursor:pointer;  
 }
 
-/* general css */
+/* google map css */
+.results {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #000000;
+    overflow: scroll;
+    margin-top: 25px;
+}
+
+#map {
+    margin-top: 25px;
+    height: 650px;
+    width: 100%;
+    margin-bottom: 25px;
+    }
+
+body {
+    padding: 0 !important;
+    }
+
+table {
+    font-size: 12px;
+      }
+
+#listing {
+    width: 100%;
+    top: 0px;
+    cursor: pointer;
+    }
+    
+
+#autocomplete {
+    width: 100%;
+    }
+
+#country {
+    width: 100%;
+    }
+
+.placeIcon {
+    width: 20px;
+    height: 34px;
+    margin: 4px;
+    }
+
+.hotelIcon {
+    width: 24px;
+    height: 24px;
+    }
+
+#resultsTable {
+    border-collapse: collapse;
+    width: 100%;
+    }
+
+#rating {
+    font-size: 13px;
+    font-family: Arial Unicode MS;
+    }
+
+.iw_table_row {
+    height: 18px;
+    }
+
+.iw_attribute_name {
+    font-weight: bold;
+    text-align: right;
+    }
+
+.iw_table_icon {
+    text-align: right;
+    }
+
+#locationField {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/* General Css*/
+
+.logo {
+    height: 58px;
+    width: 80px;
+}
+
+/*General CSS*/
+
+.map-sect {
+    border-left: 1px solid #545454;
+}
+
+.rad-button-1 {
+    margin-top: 25px;
+}
+
+.rad-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.rad-button-3 {
+    margin-bottom: 25px;
+}

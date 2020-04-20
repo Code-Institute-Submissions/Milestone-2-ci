@@ -1,10 +1,12 @@
-<!doctype html>
+<!Doctype html>
 <html lang="en">
 
 <head>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -14,13 +16,108 @@
 	<script src="assets/js/script.js"></script>
 	<title>Where Next?</title>
 </head>
+
 <body>
 
-<header>
+	<header>
 		<div class="main-title">
-			<a class="main-link" href="index.html">Where Next?</a>
+			<a href="index.html">
+				<img class="logo" src="assets/Images/logo-2.jpg" alt="earth with a palm tree and title">
+            </a>
 		</div>
 	</header>
 
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12 col-lg-6">
+				<div id="locationField">
+					<label for="locationField">Enter a city:</label>
+					<input id="autocomplete" placeholder="City" type="text" />
+                    </div>
+
+					<label for="controls">Select a country:</label>
+					<div id="controls">
+						<select id="country">
+                            <option value="all">All</option>
+                            <option value="au">Australia</option>
+                            <option value="br">Brazil</option>
+                            <option value="ca">Canada</option>
+                            <option value="fr">France</option>
+                            <option value="de">Germany</option>
+                            <option value="mx">Mexico</option>
+                            <option value="nz">New Zealand</option>
+                            <option value="it">Italy</option>
+                            <option value="za">South Africa</option>
+                            <option value="es">Spain</option>
+                            <option value="pt">Portugal</option>
+                            <option value="us">U.S.A.</option>
+                            <option value="uk" selected>United Kingdom</option>
+                        </select>
+					</div>
+
+                        <input type="radio" class="hotel rad-button-1" id="filter-select" name="hotel"><label for="hotel">Hotel</label><br>
+                        <input type="radio" class="active rad-button" id="filter-select" name="active"><label for="active">Activities</label><br>
+                        <input type="radio" class="food rad-button-3" id="filter-select" name="food"><label for="food">Restaurants/Bars</label>
+
+					<div class="results">
+
+						<div id="listing">
+							<table id="resultsTable">
+								<tbody id="results"></tbody>
+							</table>
+						</div>
+
+						<div style="display: none">
+							<div id="info-content">
+								<table>
+									<tr id="iw-url-row" class="iw_table_row">
+										<td id="iw-icon" class="iw_table_icon"></td>
+										<td id="iw-url"></td>
+									</tr>
+									<tr id="iw-address-row" class="iw_table_row">
+										<td class="iw_attribute_name">Address:</td>
+										<td id="iw-address"></td>
+									</tr>
+									<tr id="iw-phone-row" class="iw_table_row">
+										<td class="iw_attribute_name">Telephone:</td>
+										<td id="iw-phone"></td>
+									</tr>
+									<tr id="iw-rating-row" class="iw_table_row">
+										<td class="iw_attribute_name">Rating:</td>
+										<td id="iw-rating"></td>
+									</tr>
+									<tr id="iw-website-row" class="iw_table_row">
+										<td class="iw_attribute_name">Website:</td>
+										<td id="iw-website"></td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6 map-sect">
+					<div id="map">
+						<script
+							src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9DqwFS-_i4xbahzlY2tdR7bFLVO1qjws&libraries=places&callback=initMap"
+							async defer></script>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!--Bootstrap JS-->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
 </body>
+
 </html>
