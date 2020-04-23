@@ -131,7 +131,7 @@ footer {
     height: 177px;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 1025px) {
     .map-sect {
         border: none;
     }

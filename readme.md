@@ -31,14 +31,14 @@ I wanted to let the user filter the options, so they're precise, e.g. search Lon
 The colour scheme is grey and white to give the website a minimal look.
 
 ### Technologies
-HTML
-CSS
-JAVASCRIPT
-Bootstrap (4.4.1)
-Google Maps/places api
+- HTML
+- CSS
+- JAVASCRIPT
+- Bootstrap (4.4.1)
+- Google Maps/places api
 
 
-##Features
+## Features
 The features of this website are:
 - hotel, restaurant and attractions filtering
 - responsive Maps

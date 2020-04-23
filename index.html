@@ -5,7 +5,8 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Find your next dream holiday here where you can filter countries/cities but hotels, attractions and restaurants.">
+	<meta name="description"
+		content="Find your next dream holiday here where you can filter countries/cities but hotels, attractions and restaurants.">
 
 
 	<!-- Bootstrap CSS -->
@@ -29,13 +30,13 @@
 
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-12 col-lg-6">
+			<div class="col-12 col-md-12 col-lg-12 col-xl-6">
 				<div id="locationField">
-					<label for="locationField">Enter a city:</label>
+					<label for="autocomplete">Enter a city:</label>
 					<input id="autocomplete" placeholder="City" type="text" />
                     </div>
 
-					<label for="controls">Select a country:</label>
+					<label for="country">Select a country:</label>
 					<div id="controls">
 						<select id="country">
                             <option value="all">All</option>
@@ -55,9 +56,9 @@
                         </select>
 					</div>
 
-                        <input type="radio" class="rad-button-1" id="hotelRad" name="filter-btn" value="1" checked><label for="hotel">Hotels</label><br>
-                        <input type="radio" class="rad-button" id="TourRad" name="filter-btn" value="2"><label for="active">Attractions</label><br>
-                        <input type="radio" class="rad-button-3" id="foodRad" name="filter-btn" value="3"><label for="food">Restaurants</label><br>
+					<input type="radio" class="rad-button-1" id="hotelRad" name="filter-btn" value="1" checked><label for="hotelRad">Hotels</label><br>
+					<input type="radio" class="rad-button" id="TourRad" name="filter-btn" value="2"><label for="TourRad">Attractions</label><br>
+					<input type="radio" class="rad-button-3" id="foodRad" name="filter-btn" value="3"><label for="foodRad">Restaurants</label><br>
 
 
 					<div class="results">
@@ -96,7 +97,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-lg-6 map-sect">
+				<div class="col-12 col-md-12 col-lg-12 col-xl-6 map-sect">
 					<div id="map">
 						<script
 							src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9DqwFS-_i4xbahzlY2tdR7bFLVO1qjws&libraries=places&callback=initMap"
@@ -107,22 +108,22 @@
 
 			</div>
 		</div>
-	</div>
 
-    <footer>
 
-    </footer>
+		<footer>
 
-	<!--Bootstrap JS-->
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
+		</footer>
+
+		<!--Bootstrap JS-->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+		</script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+		</script>
 </body>
 
 </html>
