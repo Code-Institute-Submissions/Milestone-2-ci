@@ -1,4 +1,4 @@
-![readme-logo](https://user-images.githubusercontent.com/55837085/79745415-2576c200-8300-11ea-88f4-068e556fdbea.jpg)
+![Readme2](https://user-images.githubusercontent.com/55837085/80528434-d4b13a00-898d-11ea-89e8-116ae799a894.jpg)
 # Where Next?
 Where Next is a holiday planner which had been designed to make your job easy and to help you decide where you want to visit next,
 we do this by asking our user to pick a country from the list and type in a location within that country (e.g. UK, London) and once that has been selected. We filter the place into three categories:
@@ -53,15 +53,34 @@ Features i would like to implement in the future:
 - increase usability
 
 ## Testing
-The employer and recruiter user story achieved the intended outcome of providing them with a showcase of myself and my work. In the about me section, they can read a bit about my background, and if they're viewing on a desktop, the background of this section is a photo of me. They are able to see my showcased projects via the project cards in the "Work" section. They can view both the live version and the GitHub repository by clicking on the Font Awesome icons. They are also able to view my social media profiles via clicking on the icons in the footer. They are also able to download my CV by either clicking on CV in the navbar dropdown, or by clicking on the document icon in the footer.
+This website has been tested using Chrome Devtools and HTML validator, and it was essential making sure the final version matched the wireframe, so Chrome dev tools were run
+to check that everything looked right and functioned, once the mistakes had been found, they were fixed and retested to see if they reappear.
 
-If you try to submit the contact form with an invalid email address, there will be an error noting the invalid email address. Furthermore, the 'required' attribute is added to the 'name,' 'email,' and 'message' fields, so if those fields are not filled in, the form will not submit. If all field are valid, the page will reload. If an employer or recruiter is interested in contacting me, they will have to fill out all fields in order for the form to go through.
+The manual tests I ran:
 
-All links will open in a new tab using 'target="_blank"' and the CV will download to your default folder for downloads on click using the 'download' attribute. All links have been manually tested to ensure that they are pointing to the correct destination.
-
-By clicking on the links in the navbar, the scrollSpy effect will work regardless of whether or not you're viewing the sections in the same order they are listed in the dropdown navbar.
-
-This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 4, 5, 7: Chrome and Safari, iPad, Samsung Galaxy) to ensure compatibility and responsiveness. During the testing phase, I realized that background-attachment: fixed was not compatible with iOS browsers. On Chrome and Safari in iOS, the background photos appeared zoomed-in and blurry. To fix this, the background-attachment: scroll property value was added in a media query.
+<table>
+    <tr>
+        <th>Test</th>
+        <th>Input</th>
+        <th>Expected output</th>
+        <th>Output</th>
+        <th>Pass?</th>
+    </tr>
+    <tr>
+        <td>Testing to see if the correct country comes up when selected country</td>
+        <td>USA</td>
+        <td>Cities that are in USA</td>
+        <td>Cities that are in USA</td>
+        <td>Yes</td>
+    </tr>
+    <tr>
+        <td>Testing to see if the filter changes when a different filter option is clicked</td>
+        <td>Change filter</td>
+        <td>Filter should change to chosen filter</td>
+        <td>Filter Changed</td>
+        <td>Yes</td>
+    </tr>
+</table>
 
 ## Deployment
 The website was deployed using GitHub pages to do this all I had to do was activate google pages and point the source to the master branch.

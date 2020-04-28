@@ -30,12 +30,14 @@
 
 	<div class="container-fluid">
 		<div class="row">
+            <!--Map controls-->
 			<div class="col-12 col-md-12 col-lg-12 col-xl-6">
+                <!--City Filter-->
 				<div id="locationField">
 					<label for="autocomplete">Enter a city:</label>
 					<input id="autocomplete" placeholder="City" type="text" />
                     </div>
-
+                    <!--Country Filter-->
 					<label for="country">Select a country:</label>
 					<div id="controls">
 						<select id="country">
@@ -55,7 +57,7 @@
                             <option value="uk" selected>United Kingdom</option>
                         </select>
 					</div>
-
+                    <!--Location Filtering-->
 					<input type="radio" class="rad-button-1" id="hotelRad" name="filter-btn" value="1" checked><label for="hotelRad">Hotels</label><br>
 					<input type="radio" class="rad-button" id="TourRad" name="filter-btn" value="2"><label for="TourRad">Attractions</label><br>
 					<input type="radio" class="rad-button-3" id="foodRad" name="filter-btn" value="3"><label for="foodRad">Restaurants</label><br>
@@ -68,7 +70,7 @@
 								<tbody id="results"></tbody>
 							</table>
 						</div>
-
+                        <!--Info box for the places api-->
 						<div style="display: none">
 							<div id="info-content">
 								<table>
@@ -97,6 +99,7 @@
 						</div>
 					</div>
 				</div>
+                <!--Google Map-->
 				<div class="col-12 col-md-12 col-lg-12 col-xl-6 map-sect">
 					<div id="map">
 						<script
